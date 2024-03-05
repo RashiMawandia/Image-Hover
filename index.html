@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS DIV IMAGE HOVER</title>
+<style>
+   .container{
+         width:90%;
+         margin:100px;
+         display:flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+   }
+    .box{
+       width:250px;
+       margin:10px;
+       transition:1s;
+  }
+   .box img{
+        display:inline;
+        width:100%;
+        border-radius: 5px;
+}
+  .box:hover{
+      transform:scale(1.5);
+}
+.bg-gradient{
+      height: 520px;
+      width: 100%;
+      background-image: linear-gradient(85deg,black,rgb(173, 33, 33));
+}
+</style>
+  </head>
+<body>
+   <div class="bg-gradient">
+<h1 align="center">FRUIT IS NATURE'S CANDY</h1>
+
+   <div class="container">
+   <div class="box">
+    <img src="apple.jpeg">
+     </div>
+    <div class="box">
+    <img src="kiwi.jpeg">
+     </div>
+     <div class="box">
+    <img src="orange.jpeg">
+     </div>
+     <div class="box">
+    <img src="strawberry.jpeg">
+     </div>
+    <div class="box">
+    <img src="grapes.jpeg">
+     </div>
+     </div>
+</div>
+   </body>
+</html>
